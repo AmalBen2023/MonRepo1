@@ -7,7 +7,7 @@ pipeline {
 			}
 		 post {
                 success {
-                    junit 'monappli\monappli-dao\target\surefire-reports/*.xml'
+                    junit 'monappli/monappli-dao/target/surefire-reports/*.xml'
                         }
                  }
                
